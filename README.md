@@ -12,7 +12,6 @@
 [![Blake3](https://img.shields.io/badge/Algorithm-BLAKE3-orange.svg)](https://www.blake3.io/)
 
 Skrypt Python wykorzystujący bibliotekę `blake3` do generowania **Extendable Output Function (XOF)**. 
-
 W przeciwieństwie do tradycyjnych hashy (np. SHA-256), Blake3 XOF pozwala na wygenerowanie hasza o dowolnej długości. 
 
 Narzędzie zapisuje wynik w formacie Base64 do pliku `.b3x` oraz wyświetla go w konsoli.
