@@ -165,13 +165,14 @@ Narzędzie przeznaczone jest **wyłącznie do celów edukacyjnych i badawczych**
 **Oprogramowanie dostarczane jest "takie, jakie jest" (AS IS)** bez jakichkolwiek gwarancji, wyraźnych lub dorozumianych, w tym gwarancji przydatności do określonego celu lub braku błędów.
 
 Autor **nie ponosi odpowiedzialności** za:
-- Jakiekolwiek szkody wynikające z użycia narzędzia
-- Błędy, luki bezpieczeństwa lub niezawodność oprogramowania
-- Nieprawidłowe użycie w sposób niezgodny z prawem
-- Skutki wynikające z nieodpowiednich danych wejściowych
+- Jakiekolwiek szkody wynikające z użycia narzędzia;
+- Błędy, luki bezpieczeństwa lub niezawodność oprogramowania;
+- Nieprawidłowe użycie w sposób niezgodny z prawem;
+- Skutki wynikające z nieodpowiednich danych wejściowych i wyjściowych;
 
 **Użytkownik używa na własne ryzyko i odpowiedzialność.**
 
+---
 
 > 🌟 **Podoba Ci się projekt?** Daj ⭐ na GitHubie – to motywuje do dalszego rozwoju!
 ```
