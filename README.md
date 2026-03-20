@@ -77,25 +77,26 @@ Skrypt generuje plik `<nazwa_pliku>.b3x` zawierający hash w kodowaniu Base64.
 
 ```
 --- Wynik ---
-Plik wejściowy: analytics_sync.dat
+Plik wejściowy: moj_plik.txt
 Długość hasha: 2048 bitów (256 bajtów)
 Hash (Base64): 7Wz4odTIY2PK6on6MtANYeWBKnAamA11OHNkCu3Uz3hMh2shluBeM6/2a+W12whAzML8DyiSBdUG1RoylDC7Es1PgdS+lWYWNooeeqrLAH1w4NToBjLFi7zBxSZ0t+DtW+zREmzrXQy6qjJIxuobqTrGsC5pk/y3tU9zdhlEmD8N3iONzCq7cd64zuEh0dbv+zWd2wC/CngPsgzOhuSV3llvcdPg/MKEDKVlPl4n6QfoQqBXqRvWYPToHwaCvIgufNYQx4zAaXBHLLJSv+QSFE7ARvTYdncFpON5GP1aBB8bT4twwQ1fokhqYqZi1IeEsGBWBxERYhwInF/8GA6hCQ==
-Zapisano do: analytics_sync.b3x
+Zapisano do: moj_plik.b3x
 -------------
 ```
 
 ### Przykład zawartości pliku `.b3x`
 
 ```bash
-cat analytics_sync.b3x
-7Wz4odTIY2PK6on6MtANYeWBKnAamA11OHNkCu3Uz3hMh2shluBeM6/2a+W12whAzML8DyiSBdUG1RoylDC7Es1PgdS+lWYWNooeeqrLAH1w4NToBjLFi7zBxSZ0t+DtW+zREmzrXQy6qjJIxuobqTrGsC5pk/y3tU9zdhlEmD8N3iONzCq7cd64zuEh0dbv+zWd2wC/CngPsgzOhuSV3llvcdPg/MKEDKVlPl4n6QfoQqBXqRvWYPToHwaCvIgufNYQx4zAaXBHLLJSv+QSFE7ARvTYdncFpON5GP1aBB8bT4twwQ1fokhqYqZi1IeEsGBWBxERYhwInF/8GA6hCQ==(blake3xof) (ciąg Base64)
+cat moj_plik.b3x
+7Wz4odTIY2PK6on6MtANYeWBKnAamA11OHNkCu3Uz3hMh2shluBeM6/2a+W12whAzML8DyiSBdUG1RoylDC7Es1PgdS+lWYWNooeeqrLAH1w4NToBjLFi7zBxSZ0t+DtW+zREmzrXQy6qjJIxuobqTrGsC5pk/y3tU9zdhlEmD8N3iONzCq7cd64zuEh0dbv+zWd2wC/CngPsgzOhuSV3llvcdPg/MKEDKVlPl4n6QfoQqBXqRvWYPToHwaCvIgufNYQx4zAaXBHLLJSv+QSFE7ARvTYdncFpON5GP1aBB8bT4twwQ1fokhqYqZi1IeEsGBWBxERYhwInF/8GA6hCQ==(blake3xof) [ciąg Base64]
 ```
 
 
 
 ## 🧠 Dlaczego Blake3 XOF?
 
-Tradycyjne funkcje hashujące (jak SHA-256) zwracają wynik o stałej długości (np. 32 bajty). **Blake3 XOF** (Extendable Output Function) pozwala na wygenerowanie strumienia bajtów o **dowolnej długości**.
+Tradycyjne funkcje hashujące (jak SHA-256) zwracają wynik o stałej długości (np. 32 bajty). 
+**Blake3 XOF** (Extendable Output Function) pozwala na wygenerowanie strumienia bajtów o **dowolnej długości**.
 
 | Cecha | SHA-256 | Blake3 XOF |
 |-------|---------|------------|
@@ -115,10 +116,9 @@ Tradycyjne funkcje hashujące (jak SHA-256) zwracają wynik o stałej długości
 
 
 ## 📂 Struktura projektu
-
 ```
 .
-├── blake3_xof.py       # Główny skrypt
+├── blake3_xof_gen.py   # Główny skrypt
 ├── requirements.txt    # Dependencje Python
 ├── README.md           # Dokumentacja
 └── LICENSE             # Licencja
