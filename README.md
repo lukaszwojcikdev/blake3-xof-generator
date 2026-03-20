@@ -150,8 +150,8 @@ Projekt dostępny na licencji **MIT** – zobacz plik [LICENSE](LICENSE).
 
 **Łukasz Wójcik**  
 🐙 GitHub: [lukaszwojcikdev](https://github.com/lukaszwojcikdev)  
-🔗 LinkedIn: https://www.linkedin.com/in/lukasz-michal-wojcik
-🌐 Website: https://lukaszwojcik.eu
+🔗 LinkedIn: [profil_linkedin](https://www.linkedin.com/in/lukasz-michal-wojcik)
+🌐 Website: [strona_domowa](https://lukaszwojcik.eu)
 
 > 💬 *"Kryptografia to sztuka ukrywania informacji w pełnym świetle."*
 
